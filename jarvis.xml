@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Override default frameworks base -->
+    <remove-project name="CyanogenMod/android_frameworks_base" />
+    <project name="Jarvis-CM/frameworks_base" path="frameworks/base" />
+
+    <project name="Jarvis-CM/frameworks_speechapi" path="frameworks/speechapi" />
+</manifest>
